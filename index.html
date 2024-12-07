@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> -->
+
+    <!-- for icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/brands.min.css"
+        integrity="sha512-7rXIvd/xj1FnI2zKQjjXzDFxC4twqBByp8yxOgEQJs4C/aNzNyoQsOO7VxH0RgYNhbAYLJLwzqslaP50KTTHIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid" id="firstPage">
+        <div class="row">
+            <div class="navbar ">
+                <img class="logo" src="https://quiz.saylaniwelfare.com/images/logo.png" alt="">
+                <h2 class="">V O.1 BETA</h2>
+            </div>
+        </div>
+
+
+
+        <!-- main-Secton -->
+
+        <div class="main-section">
+            <div class="row mt-5">
+                <h1>Quiz Application</h1>
+            </div>
+            <div class="row">
+                <h2 class="main-heading">Saylani Mass IT Training Program</h2>
+            </div>
+            <div class="row">
+                <p>Saylani Mass IT Training program is an institute who delivers latest IT education (FREE OF COST).</p>
+            </div>
+            <div class="row">
+                <p>Saylani Mass Training Department is one of the department which is running under Saylani Welfare
+                    TrustManagement.</p>
+            </div>
+
+            <div class="row">
+                <h4>Start you Exam Here</h4>
+            </div>
+
+            <div class="row">
+                <div id="btn">
+                    <a class="btns" id="btns" onclick="click()" href="#">Sign Up</a>
+                    <a class="btns" id="loginBtn" href="#">Log In</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- sign UP card -->
+
+    <div class="container" id="signUpCard">
+        <form class="row g-3 justify-content-center" id="signUpForm">
+            <div class="col-md-6 bg-light justify-content-center px-5 rounded">
+
+                <h6 id="signUp-headind">Student Registration Form<button type="button" id="clickOnCloseBtnSign"
+                        class="btn-close mx-5 fs-6" aria-label="Close"></button> </h6>
+                <label for="name" class="form-label">Your name</label>
+                <input type="name" id="signInput" class="form-control" id="name" required>
+                <label for="inputEmail4" class="form-label">Your email</label>
+                <input type="email" class="form-control" id="inputEmail4" required>
+                <label for="password" class="form-label">Your password</label>
+                <input type="password" class="form-control" id="password" required>
+                <div id="button">
+                    <button class="signBtn" type="submit" class="btn btn-primary justify-content-center mt-5"
+                        id="btns">Sign in</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- login card -->
+
+    <div class="container" id="loginCard">
+        <form class="row g-3 justify-content-center" id="loginForm">
+            <div class="col-md-6 bg-light justify-content-center px-5 rounded">
+                <h6 id="signUp-headind">Student Login<button type="button" id="clickOnCloseBtnLogin"
+                        class="btn-close mx-5 fs-6" aria-label="Close"></button> </h6>
+                <label for="inputEmail4" class="form-label mt-5">Your email</label>
+                <input type="email" class="form-control" id="inputEmail4" required>
+                <label for="password" class="form-label">Your password</label>
+                <input type="password" class="form-control" id="password" required>
+                <div id="button">
+                    <button id="innerLoginBtn" type="submit" class="btn btn-primary justify-content-center mt-5"
+                        id="btns">Log In</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--Inner file  -->
+
+    <div class="container-fluid" id="welcomeCardHeader">
+
+        <div class="row" id="innerFile">
+            <div class="col-10"><img class="logo" src="https://quiz.saylaniwelfare.com/images/logo.png" alt=""></div>
+            <div class="col-1 ">
+                <a class="innerBtns" href="#">Result</a>
+            </div>
+            <div class="col-1 align-item-center mt-3 text-light">
+                <h5>Name</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- inner main -->
+
+    <div class="container" id="welcomeCard">
+        <div class="row mt-5">
+            <h1 id="inner-heading">Welcome Name</h1>
+            <hr>
+        </div>
+
+        <div class="row justify-content-between">
+            <div class="col-md-4 border border-secondary" id="subject1">
+                <h2 class="mt-2">Python</h2>
+                <h6 class="mt-3 text-primary mb-4">1 Subject</h6>
+                <a href="" class="jionBtn">Join</a>
+            </div>
+
+            <div class="col-md-4 border border-secondary" id="subject1">
+                <h2 class="mt-2">Web and Mobile</h2>
+                <h6 class="mt-3 text-primary mb-4 ">2 Subject</h6>
+                <a href="web.html" class="jionBtn">Join</a>
+            </div>
+
+            <div class="col-md-4 border border-secondary" id="subject1">
+                <h2 class="mt-2">Module-1 Exam</h2>
+                <h6 class="mt-3 text-primary mb-4 ">3 Subject</h6>
+                <a href="" class="jionBtn">Join</a>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

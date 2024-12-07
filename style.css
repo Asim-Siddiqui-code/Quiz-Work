@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 72px;
+    height: 50px;
+    margin-left: 20px;
+    
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: white;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 80px;
+    text-align: center;
+    color: blue;
+}
+
+.main-heading {
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(46, 42, 42);
+}
+
+h4 {
+    text-align: center;
+    font-weight: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: blue;
+}
+
+#btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btns {
+    background-color: blue;
+    color: white;
+    /* width: 140px;
+    height: 80px; */
+    cursor: pointer;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+}
+
+#btns {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+}
+#btns:hover {
+    background-color: purple;
+    color: white;
+}
+#button{
+    text-align: center;
+}
+
+.btns:hover {
+    background-color: purple;
+    color: white;
+}
+
+#signUpCard{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    display: none;
+}
+
+#loginCard{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    display: none;
+}
+
+#signUp-headind{
+   font-size: 25px; 
+   text-align: center;
+   margin-top: 20px;
+   color: blue;
+}
+
+h5{
+    color: pink;
+}
+
+.innerBtns   {
+    color: pink;
+    /* color:blue ;  */
+    cursor: pointer;
+    text-decoration: none;
+    padding: 7px;
+    display: flex;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+#welcomeCard{
+    display: none;
+}
+
+#innerFile{
+    /* background-color: blue; */
+}
+#welcomeCardHeader{
+    display: none;
+    background-color: blue;
+}
+
+#inner-heading {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 60px;
+    color: blue;
+    text-align: start;
+}
+
+#subject1{
+ width: 300px;
+ height: 150px;
+ /* margin-right: 80px; */
+}
+
+.jionBtn{
+    background-color: gray;
+    width: 100%;
+    height: 100px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+.jionBtn:hover{
+    color: white;
+}
